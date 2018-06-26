@@ -1,0 +1,8 @@
+{% extends 'courses/title.html' %}
+
+{% block content %}
+    <nav>
+        <a href="{% url 'courses:home' %}">Home page</a>
+    </nav>
+    <h1>{{ course }}</h1>
+{% endblock content %}
